@@ -4,11 +4,7 @@
     "singleQuote": true,
     "printWidth": 100,
     "tabWidth": 4,
-    "importOrder": [
-        "@(.*)$",
-        "^[./]",
-        "@components/(.*)$"
-    ],
+    "importOrder": ["^next/(.*)$", "^@/components/(.*)$", "^[./]"],
     "importOrderSeparation": true,
     "importOrderSortSpecifiers": true,
     "importOrderCaseInsensitive": true
